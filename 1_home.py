@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import webbrowser
+import sklearn
 
 
 st.set_page_config(
