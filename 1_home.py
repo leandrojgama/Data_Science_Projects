@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import webbrowser
-from joblib import load
+
 
 st.set_page_config(
     page_title="Home",
@@ -11,7 +11,7 @@ st.set_page_config(
 
 #Carregamento/ tratamento dos dados
 if "data" not in st.session_state:
-    df= pd.read_csv(r"C:\dev\ml_python\previsao_doencas_cardiaca\datasets\cardio_train.csv", encoding="utf-8", sep=",", index_col=0)
+    df= pd.read_csv(r"datasets\cardio_train.csv", encoding="utf-8", sep=",", index_col=0)
     
     #Transformando a coluna de idade em anos
     df['age'] = (df['age']/365).round(0).astype('Int64')
