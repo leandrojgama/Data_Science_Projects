@@ -1,22 +1,31 @@
 **Introdução**
-O modelo da aplicação foi separado em 3 páginas.
+O modelo da aplicação foi dividido em 3 páginas:
+
 Página 1: Home
-    Nesta página foi feito o processamento dos dados e tratativas, alem de inserir um descritivo do projeto
+Nesta página, realizado o processamento e tratamento dos dados, além de incluir uma descrição do projeto.
 
-Página 2: Previsao
-    Disponibilizado ao usuário as variaveis para inserir os valores, com os valores preenchidos será feito o processamento do algoritmo de Machine Learning
+Página 2: Previsão
+Disponibilizado as variáveis para que o usuário insira os valores. pós preenchê-los, o algoritmo de Machine Learning é acionado.
 
-Página 3: Resultados do modelo
-    Foi inserido as metricas do algoritmo para que possa ser avaliado a performance
+Página 3: Resultados do Modelo
+Aqui, incluído as métricas do algoritmo para que a performance possa ser avaliada.
 
 **Deploy**
-Para fazer o deploy foi utilizado o servido do streamilt "https://streamlit.io/", neste servidor é possivel disponibilizar até 3 projetos de forma gratuita, abaixo passo a passo para fazer o deploy do modelo
+Para fazer o deploy foi utilizado o servido (Streamlit) <https://streamlit.io/>, neste servidor é possivel disponibilizar até 1 projeto de forma gratuita.
 
+Abaixo, segue o passo a passo para fazer o deploy do modelo.
+- Criar a conta em (Streamlit) <https://streamlit.io/>
+- Subir o projeto para um repositório do GitHub
+- Criar a conexão do Streamlit no Github
+- Executar o deploy do modelo
 
 
 **Execução local**
+Se desejar rodar o modelo em um ambiente local, siga as etapas abaixo:
 
-Caso desejar rodar o modelo em ambiente local, será necessário clonar as informações do github e no terminal de comando no local aonde estiver realizar do clone do repositório executar o seguinte comando
-"streamlit run 'nome do arquivo'" 
+- Clone o repositório do GitHub.
+- No terminal de comando, navegue até a pasta onde está o repositório clonado.
+- Execute o seguinte comando: streamlit run 'nome do arquivo'.
 
 Exemplo: streamlit run 1_home.py
+

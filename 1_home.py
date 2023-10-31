@@ -23,7 +23,7 @@ if "data" not in st.session_state:
 st.write("# Previsão de Doenças Cardiacas utilizando Machine Learning ")
 
 #opção para adicionar filtro ou outras informações na parte esquerda da página
-st.sidebar.markdown("Dataset - [Kaggle] (https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset?select=cardio_train.csv)")
+st.sidebar.markdown("Dataset - [Kaggle] <https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset?select=cardio_train.csv>")
 
 
 #opção para adicionar botão com link
