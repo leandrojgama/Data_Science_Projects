@@ -23,19 +23,13 @@ if "data" not in st.session_state:
 st.write("# Previsão de Doenças Cardiacas utilizando Machine Learning ")
 
 #opção para adicionar filtro ou outras informações na parte esquerda da página
-st.sidebar.markdown("Dataset - [Kaggle] <https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset?select=cardio_train.csv>")
-
-
-#opção para adicionar botão com link
-bt = st.button("codígo fonte - [github]")
-if bt:
-    webbrowser.open_new_tab("https://github.com/Lenon1994/Data_Science_Projects/tree/main")
+st.sidebar.markdown("Código fonte - [Github](https://github.com/Lenon1994/Data_Science_Projects/tree/main)")
 
 #opção para adicionar texto na página formatado
 st.markdown(
     """
     Este projeto tem como objetivo realizar a previsão de doenças cardíacas utilizando Machine Learning. 
-    Para desenvolver o modelo de previsão, foi considerado como base um conjunto de dados composto por **70 mil registros de pacientes**. 
+    Para desenvolver o modelo de previsão, foi considerado como base um conjunto de dados composto por **70 mil registros de pacientes** -['dataset'](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset?select=cardio_train.csv). 
     Neste projeto, foi utilizado o algoritmo **RandomForestClassifier**, com o qual teve uma **acurácia de 73%**, demonstrando a eficácia da utilização do Machine Learning para prever doenças cardicas.
 """
 )
